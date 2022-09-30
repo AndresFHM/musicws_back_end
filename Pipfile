@@ -13,6 +13,7 @@ email-validator = "*"
 flask-bcrypt = "*"
 flask-login = "*"
 wtforms = "*"
+flask-cors = "*"
 
 [dev-packages]
 

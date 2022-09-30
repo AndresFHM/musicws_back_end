@@ -4,11 +4,12 @@ from flask_marshmallow import Marshmallow
 
 from flask_bcrypt import Bcrypt
 from flask_login import login_user, current_user, logout_user, login_required
+from flask_cors import CORS
 import os
 
 
 app = Flask(__name__)
-
+CORS(app)
 # @app.route('/')
 # def hello():
 #     return "Hello you again"
